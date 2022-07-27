@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon//favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon//site.webmanifest">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <div class="currentScore"></div>
+      <button class="btn">Pause</button>
+      <button class="btn">Table of records</button>
+    </div>
+  </header>
+  <main class="main">
+        <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <canvas id="game"></canvas>
+    <div id="statistics">
+      <h2>Your statistics</h2>
+      <p class="statistics-best-score"></p>
+      <h3>Last 10 games</h3>
+      <ul>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+        <li class="score"></li>
+      </ul>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <a href="https://github.com/LInus1408" class="footer-author-link"
+        >© 2022 github</a
+      >
+      <a href="https://rs.school/js-stage0/" class="footer-logo-link"> </a>
+    </div>
+  <script src="./index.js"></script>
+  </footer>
+</body>
+</html>
